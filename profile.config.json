@@ -1,0 +1,72 @@
+{
+  "username": "Justinabit",
+  "name": "Vince Justin Illana",
+  "greeting": "Hi there, I'm",
+
+  "age": 20,
+  "birthday": null,
+  "timezone": "Asia/Manila",
+
+  "facts": [
+    { "icon": "mortar-board", "text": "2nd Year Computer Science Student" },
+    { "icon": "location", "text": "De La Salle Lipa" },
+    { "icon": "person", "text": "{age} years old" }
+  ],
+
+  "typing": [
+    "Building browser games with Three.js",
+    "Shipping full-stack web apps",
+    "Making AI-powered study tools",
+    "Learning OOP & algorithms in Java"
+  ],
+
+  "featured": [
+    {
+      "repo": "Retro-Racer",
+      "title": "Retro Racer",
+      "tagline": "Arcade racer in Three.js: 8-car races, a garage that rebuilds your 3D car, a kart expansion and real-time multiplayer lobbies.",
+      "tech": ["Three.js", "Vite", "Supabase", "Playwright"],
+      "demo": "https://retro-racer-inky.vercel.app"
+    },
+    {
+      "repo": "Cubix",
+      "title": "Cubix",
+      "tagline": "3D Rubik's Cube solver. Scan your cube with the camera, then follow animated steps from a Kociemba two-phase solver.",
+      "tech": ["Three.js", "Algorithms", "Camera Scan", "PWA"],
+      "demo": "https://cubix-flax.vercel.app"
+    },
+    {
+      "repo": "Relata",
+      "title": "Relata",
+      "tagline": "Research discovery tool that finds recent, verifiable studies via OpenAlex and Crossref, with DOI checks and citations.",
+      "tech": ["React 19", "TypeScript", "Express 5", "OpenAlex"],
+      "demo": "https://relata-chi.vercel.app"
+    },
+    {
+      "repo": "RepLine",
+      "title": "RepLine",
+      "tagline": "Camera push-up counter using on-device pose detection, with personal records and a live shared leaderboard.",
+      "tech": ["MediaPipe", "Pose Detection", "Supabase", "Vanilla JS"],
+      "demo": "https://repline-sigma.vercel.app"
+    },
+    {
+      "repo": "Ridge-Runner",
+      "title": "Ridge Runner",
+      "tagline": "Low-poly endless hill-climb driver with real physics, traffic, pickups and a procedurally streamed road.",
+      "tech": ["Three.js", "cannon-es", "Web Audio", "Procedural"],
+      "demo": "https://ridge-runner.vercel.app"
+    },
+    {
+      "repo": "Tallyo",
+      "title": "Tallyo",
+      "tagline": "Personal budgeting app with wallets, budgets, savings goals, recurring bills and reports.",
+      "tech": ["Hono", "Cloudflare Workers", "Supabase", "Chart.js"],
+      "demo": null
+    }
+  ],
+
+  "languages": {
+    "max": 8,
+    "exclude": []
+  }
+}

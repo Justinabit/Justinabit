@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Thanks for visiting">
+  <style>
+  .s { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+  .m { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+  .fade { animation: fadeUp .8s cubic-bezier(.2,.7,.2,1) both; }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } }
+  .pop { animation: pop .6s cubic-bezier(.3,1.4,.5,1) both; transform-box: fill-box; transform-origin: center; }
+  @keyframes pop { from { opacity: 0; transform: scale(.6); } }
+  .pulse { animation: pulse 2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes pulse { 50% { opacity: .35; transform: scale(1.6); } }
+  .wave { animation: wave linear infinite; }
+    @keyframes wave { to { transform: translateX(-1200px); } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+  <text x="600" y="42" text-anchor="middle" class="s fade" font-size="20" font-weight="600" fill="#2ea043">Thanks for stopping by. Keep building!</text>
+  <path class="wave" style="animation-duration:18s" d="M0 82 Q100 68 200 82 T400 82 Q500 68 600 82 T800 82 Q900 68 1000 82 T1200 82 Q1300 68 1400 82 T1600 82 Q1700 68 1800 82 T2000 82 Q2100 68 2200 82 T2400 82 V150 H0 Z" fill="#40c463" opacity="0.3"/>
+  <path class="wave" style="animation-duration:13s" d="M0 96 Q75 84 150 96 T300 96 Q375 84 450 96 T600 96 Q675 84 750 96 T900 96 Q975 84 1050 96 T1200 96 Q1275 84 1350 96 T1500 96 Q1575 84 1650 96 T1800 96 Q1875 84 1950 96 T2100 96 Q2175 84 2250 96 T2400 96 V150 H0 Z" fill="#30a14e" opacity="0.5"/>
+  <path class="wave" style="animation-duration:9s" d="M0 112 Q60 102 120 112 T240 112 Q300 102 360 112 T480 112 Q540 102 600 112 T720 112 Q780 102 840 112 T960 112 Q1020 102 1080 112 T1200 112 Q1260 102 1320 112 T1440 112 Q1500 102 1560 112 T1680 112 Q1740 102 1800 112 T1920 112 Q1980 102 2040 112 T2160 112 Q2220 102 2280 112 T2400 112 V150 H0 Z" fill="#2ea043" opacity="0.85"/>
+</svg>

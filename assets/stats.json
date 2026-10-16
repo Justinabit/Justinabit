@@ -1,0 +1,63 @@
+{
+  "login": "Justinabit",
+  "name": "Vince Justin Illana",
+  "createdAt": "2026-07-18T09:12:00Z",
+  "timezone": "Asia/Manila",
+  "totalRepos": 22,
+  "stars": 4,
+  "pullRequests": 3,
+  "contributions": 100,
+  "totalCommits": 75,
+  "streak": {
+    "current": 2,
+    "longest": 4
+  },
+  "languages": {
+    "repoCount": 20,
+    "list": [
+      {
+        "name": "JavaScript",
+        "color": "#f1e05a",
+        "size": 1181189,
+        "pct": 41.68321730243693
+      },
+      {
+        "name": "TypeScript",
+        "color": "#3178c6",
+        "size": 550237,
+        "pct": 19.417424678727105
+      },
+      {
+        "name": "Java",
+        "color": "#b07219",
+        "size": 462910,
+        "pct": 16.335724529665516
+      },
+      {
+        "name": "CSS",
+        "color": "#663399",
+        "size": 264423,
+        "pct": 9.331276678636764
+      },
+      {
+        "name": "HTML",
+        "color": "#e34c26",
+        "size": 211062,
+        "pct": 7.448209567043837
+      },
+      {
+        "name": "PLpgSQL",
+        "color": "#336790",
+        "size": 121917,
+        "pct": 4.30235364862118
+      },
+      {
+        "name": "Python",
+        "color": "#3572A5",
+        "size": 41990,
+        "pct": 1.4817935948686678
+      }
+    ]
+  },
+  "updated": "2026-10-16T03:39:55.153Z"
+}

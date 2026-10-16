@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="172" viewBox="0 0 480 172" role="img" aria-labelledby="title desc">
+  <title id="title">RepLine repository</title>
+  <desc id="desc">Camera push-up counter using on-device pose detection, with personal records and a live shared leaderboard. Built with MediaPipe, Pose Detection, Supabase, Vanilla JS. 1 stars, 11 commits.</desc>
+  <style>
+  .s { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+  .m { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+  .fade { animation: fadeUp .8s cubic-bezier(.2,.7,.2,1) both; }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } }
+  .pop { animation: pop .6s cubic-bezier(.3,1.4,.5,1) both; transform-box: fill-box; transform-origin: center; }
+  @keyframes pop { from { opacity: 0; transform: scale(.6); } }
+  .pulse { animation: pulse 2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes pulse { 50% { opacity: .35; transform: scale(1.6); } }
+  .sweep { animation: sweep 4s ease-in-out infinite; }
+      @keyframes sweep { from { transform: translateX(0); } 60%, to { transform: translateX(640px); } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+  <defs>
+    <radialGradient id="glow" cx="480" cy="0" r="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2ea043" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#2ea043" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card"><rect x="0.5" y="0.5" width="479" height="171" rx="14"/></clipPath>
+  <linearGradient id="accent" x1="0" x2="1"><stop offset="0" stop-color="#216e39"/><stop offset=".5" stop-color="#40c463"/><stop offset="1" stop-color="#9be9a8"/></linearGradient>
+    <linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="479" height="171" rx="14" fill="#ffffff"/>
+  <rect x="0.5" y="0.5" width="479" height="171" rx="14" fill="url(#glow)"/>
+  <g clip-path="url(#card)">
+    <rect x="0" y="0" width="480" height="3" fill="url(#accent)"/>
+    <rect class="sweep" x="-160" y="0" width="160" height="3" fill="url(#shine)" style="animation-delay:1.8s"/>
+  </g>
+<g class="fade">
+    <path transform="translate(24 26) scale(1)" fill="#59636e" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/>
+    <text x="48" y="39.5" class="s" font-size="18" font-weight="700" fill="#1a7f37">RepLine</text>
+  </g>
+<g class="fade" style="animation-delay:.25s">
+      <rect x="372" y="23" width="84" height="22" rx="11" fill="#e9f8ed" stroke="#b7e4c2"/>
+      <circle cx="386" cy="34" r="3.5" fill="#1a7f37" class="pulse"/>
+      <circle cx="386" cy="34" r="3.5" fill="#1a7f37"/>
+      <text x="396" y="38.5" class="s" font-size="11.5" font-weight="600" fill="#116329">Live demo</text>
+    </g>
+<g class="fade" style="animation-delay:.15s"><text x="24" y="70" class="s" font-size="13.5" fill="#31373d">Camera push-up counter using on-device pose detection, with</text><text x="24" y="90" class="s" font-size="13.5" fill="#31373d">personal records and a live shared leaderboard.</text></g>
+<g class="pop" style="animation-delay:0.4s">
+        <rect x="24" y="108" width="81.2" height="22" rx="6" fill="#e9f8ed" stroke="#b7e4c2"/>
+        <text x="64.6" y="123" text-anchor="middle" class="s" font-size="11.5" font-weight="600" fill="#116329">MediaPipe</text>
+      </g><g class="pop" style="animation-delay:0.4s">
+        <rect x="113.2" y="108" width="106.5" height="22" rx="6" fill="#e9f8ed" stroke="#b7e4c2"/>
+        <text x="166.4" y="123" text-anchor="middle" class="s" font-size="11.5" font-weight="600" fill="#116329">Pose Detection</text>
+      </g><g class="pop" style="animation-delay:0.5s">
+        <rect x="227.7" y="108" width="77" height="22" rx="6" fill="#e9f8ed" stroke="#b7e4c2"/>
+        <text x="266.1" y="123" text-anchor="middle" class="s" font-size="11.5" font-weight="600" fill="#116329">Supabase</text>
+      </g><g class="pop" style="animation-delay:0.6s">
+        <rect x="312.6" y="108" width="78.4" height="22" rx="6" fill="#e9f8ed" stroke="#b7e4c2"/>
+        <text x="351.8" y="123" text-anchor="middle" class="s" font-size="11.5" font-weight="600" fill="#116329">Vanilla JS</text>
+      </g>
+<g class="fade" style="animation-delay:.55s"><circle cx="30" cy="150.5" r="6" fill="#f1e05a"/>
+      <text x="42" y="155" class="s" font-size="12.5" fill="#59636e">JavaScript</text><path transform="translate(122.0025 142.5) scale(0.875)" fill="#59636e" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"/><text x="141.0025" y="155" class="s" font-size="12.5" fill="#59636e">1</text><path transform="translate(166.3 143) scale(0.9375)" fill="#59636e" d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5Zm-1.43-.75a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z"/><text x="186.3" y="155" class="s" font-size="12.5" fill="#59636e">11 commits</text></g>
+  <rect x="0.5" y="0.5" width="479" height="171" rx="14" fill="none" stroke="#cfe3d4"/>
+</svg>
