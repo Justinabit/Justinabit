@@ -3,61 +3,61 @@
   "name": "Vince Justin Illana",
   "createdAt": "2025-09-02T00:54:30Z",
   "timezone": "Asia/Manila",
-  "totalRepos": 23,
+  "totalRepos": 24,
   "stars": 4,
-  "pullRequests": 6,
-  "contributions": 107,
-  "totalCommits": 78,
+  "pullRequests": 8,
+  "contributions": 124,
+  "totalCommits": 92,
   "streak": {
-    "current": 2,
+    "current": 3,
     "longest": 4
   },
   "languages": {
-    "repoCount": 21,
+    "repoCount": 22,
     "list": [
       {
         "name": "JavaScript",
         "color": "#f1e05a",
         "size": 1343003,
-        "pct": 43.31293899403908
+        "pct": 42.2874665959673
+      },
+      {
+        "name": "Java",
+        "color": "#b07219",
+        "size": 572445,
+        "pct": 18.024716858807093
       },
       {
         "name": "TypeScript",
         "color": "#3178c6",
         "size": 572207,
-        "pct": 18.454141117303628
-      },
-      {
-        "name": "Java",
-        "color": "#b07219",
-        "size": 520621,
-        "pct": 16.7904506631896
+        "pct": 18.01722289412508
       },
       {
         "name": "CSS",
         "color": "#663399",
         "size": 317944,
-        "pct": 10.253952579049162
+        "pct": 10.011181121254554
       },
       {
         "name": "HTML",
         "color": "#e34c26",
         "size": 234038,
-        "pct": 7.547915839567684
+        "pct": 7.369212211132065
       },
       {
         "name": "PLpgSQL",
         "color": "#336790",
         "size": 68358,
-        "pct": 2.204601094528101
+        "pct": 2.1524052005595915
       },
       {
         "name": "Python",
         "color": "#3572A5",
-        "size": 44526,
-        "pct": 1.4359997123227455
+        "size": 67894,
+        "pct": 2.1377951181543184
       }
     ]
   },
-  "updated": "2026-10-20T20:01:37.172Z"
+  "updated": "2026-10-21T20:13:02.578Z"
 }
