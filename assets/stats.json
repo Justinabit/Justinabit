@@ -5,12 +5,12 @@
   "timezone": "Asia/Manila",
   "totalRepos": 25,
   "stars": 4,
-  "pullRequests": 9,
-  "contributions": 133,
-  "totalCommits": 99,
+  "pullRequests": 13,
+  "contributions": 150,
+  "totalCommits": 112,
   "streak": {
-    "current": 4,
-    "longest": 4
+    "current": 5,
+    "longest": 5
   },
   "languages": {
     "repoCount": 23,
@@ -19,45 +19,45 @@
         "name": "JavaScript",
         "color": "#f1e05a",
         "size": 1515294,
-        "pct": 44.4887516676375
+        "pct": 43.211962172486935
       },
       {
         "name": "Java",
         "color": "#b07219",
-        "size": 576393,
-        "pct": 16.922791907025687
+        "size": 694117,
+        "pct": 19.794282526876046
       },
       {
         "name": "TypeScript",
         "color": "#3178c6",
         "size": 572207,
-        "pct": 16.7998917210019
+        "pct": 16.317749056508
       },
       {
         "name": "CSS",
         "color": "#663399",
         "size": 363560,
-        "pct": 10.674054379075143
+        "pct": 10.36771805829717
       },
       {
         "name": "HTML",
         "color": "#e34c26",
         "size": 242310,
-        "pct": 7.114176797760198
+        "pct": 6.9100059486906895
       },
       {
         "name": "PLpgSQL",
         "color": "#336790",
         "size": 68358,
-        "pct": 2.0069782408538304
+        "pct": 1.9493796650596265
       },
       {
         "name": "Python",
         "color": "#3572A5",
-        "size": 67894,
-        "pct": 1.993355286645747
+        "size": 50808,
+        "pct": 1.448902572081534
       }
     ]
   },
-  "updated": "2026-10-22T20:11:26.038Z"
+  "updated": "2026-10-23T19:58:31.580Z"
 }
