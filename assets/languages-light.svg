@@ -28,7 +28,7 @@
       <text x="456" y="40" text-anchor="end" class="m" font-size="12" fill="#59636e">by code size</text>
     </g><clipPath id="bar"><rect x="24" y="62" width="432" height="10" rx="5"/></clipPath>
     <rect x="24" y="62" width="432" height="10" rx="5" fill="#eaeef2"/>
-    <g clip-path="url(#bar)"><g class="grow"><rect x="24" y="62" width="186.7" height="10" fill="#f1e05a"/><rect x="210.7" y="62" width="85.5" height="10" fill="#b07219"/><rect x="296.2" y="62" width="70.5" height="10" fill="#3178c6"/><rect x="366.7" y="62" width="44.8" height="10" fill="#663399"/><rect x="411.5" y="62" width="29.9" height="10" fill="#e34c26"/><rect x="441.3" y="62" width="8.4" height="10" fill="#336790"/><rect x="449.7" y="62" width="6.3" height="10" fill="#3572A5"/></g></g><g class="fade" style="animation-delay:0.5s">
+    <g clip-path="url(#bar)"><g class="grow"><rect x="24" y="62" width="186.8" height="10" fill="#f1e05a"/><rect x="210.8" y="62" width="85.5" height="10" fill="#b07219"/><rect x="296.3" y="62" width="70.5" height="10" fill="#3178c6"/><rect x="366.7" y="62" width="44.8" height="10" fill="#663399"/><rect x="411.5" y="62" width="29.8" height="10" fill="#e34c26"/><rect x="441.3" y="62" width="8.4" height="10" fill="#336790"/><rect x="449.7" y="62" width="6.3" height="10" fill="#3572A5"/></g></g><g class="fade" style="animation-delay:0.5s">
         <circle cx="30" cy="103.5" r="6" fill="#f1e05a"/>
         <text x="44" y="108" class="s" font-size="13.5" fill="#31373d">JavaScript</text>
         <text x="228" y="108" text-anchor="end" class="m" font-size="12.5" fill="#59636e">43.2%</text>
